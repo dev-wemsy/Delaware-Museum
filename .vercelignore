@@ -1,0 +1,3 @@
+# Never upload these to Vercel
+docs/
+.env*
