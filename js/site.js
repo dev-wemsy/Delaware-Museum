@@ -20,7 +20,11 @@ var SITE = {
   newsletter:     "",   // Current newsletter (PDF or web link)
   donate:         "",   // Online donation page
   membership:     "",   // Membership sign-up page
-  portal:         "",   // Volunteer / Board login (Phase 2)
+  portal:         "/portal/login",   // Volunteer / Board sign-in (built into this site)
+
+  // Portal-only. The internal calendar is a separate, NON-public Google Calendar.
+  internalCalendarId: "",   // e.g. xyz789@group.calendar.google.com
+  driveFolder:        "",   // Shared Google Drive folder holding volunteer documents
 
   // Where the Contact page's inquiry form sends mail.
   contactEmail:   "DirectorDMHEF@gmail.com"
