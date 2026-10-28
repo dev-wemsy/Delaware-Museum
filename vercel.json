@@ -1,4 +1,8 @@
 {
   "cleanUrls": true,
-  "trailingSlash": false
+  "trailingSlash": false,
+  "redirects": [
+    { "source": "/modern", "destination": "/mockups/modern", "permanent": false },
+    { "source": "/classic", "destination": "/mockups/classic", "permanent": false }
+  ]
 }

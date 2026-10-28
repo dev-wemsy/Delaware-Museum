@@ -1,0 +1,5 @@
+.vercel
+.env*
+
+# Client brief stays local; the repo is public
+docs/
